@@ -1,0 +1,235 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1919px;
+  font-family: "Segoe UI", "Roboto", sans-serif;
+  margin: 0;
+  max-width: 1919px;
+  position: relative;
+}
+.contenedor{
+ width: 100%;
+ max-width: 100%;
+ margin: auto;
+ overflow: hidden;
+}
+.titulo{
+  font-size: 40px;
+  font-family: "Segoe UI", "Roboto", sans-serif;
+  font-weight: normal;
+  color: #130b29;
+}
+.base{
+ width: 100%;
+ height: 300px;
+ background: #59C173;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, hsla(261, 67%, 45%, 0.514), hsla(261, 61%, 69%, 0.5), hsla(135, 46%, 55%, 0.5)), url(fondo.jpg); /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, hsla(261, 67%, 45%, 0.514), hsla(261, 61%, 69%, 0.5), hsla(135, 46%, 55%, 0.5)), url(fondo.jpg);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ background-size: cover;
+ background-attachment: fixed;
+ position: relative;
+}
+img base{
+  width: 100%;
+  height: 300px;
+}
+/*.wave{
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 200px;
+}*/
+.imgAva{
+  display: block;
+  width: 48%;
+}
+img {
+ width: 300px;
+ height: 300px;
+ object-fit: cover;
+ object-position: center;
+ border-radius:150px;
+ border: 1px solid #C0FFE3;
+ margin-right: 780px;
+ position: absolute;
+ margin-top: -150px;
+ left: 195px;
+}
+header {
+  width: 100%;
+  justify-content: space-around;
+}
+.navi{
+    background:#130b29;
+    align-items: center;
+    max-width: 1919px;
+    width: 100%;
+    color: #551a8b;
+    height: 67px;
+    margin: 0;
+    padding: 0 30px 0 30px;
+    text-align: right;
+    position: relative;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+nav a {
+    letter-spacing: 0;
+    text-decoration: none;
+    top: 26px;
+    text-align: right;
+    margin-left: 10px;
+}
+nav a:hover {
+  text-decoration: underline;
+  color:blueviolet;
+}
+nav img {
+    width: 58px;
+    height: 58px;
+    object-fit: cover;
+    object-position: center;
+    border-radius:150px;
+    border: 1px solid #C0FFE3;
+    margin-right: 780px;
+    position: relative;
+    margin-top: 0;
+}
+.texto{
+width: 48%;
+position: absolute;
+text-align: left;
+top: 360px;
+left: 600px;
+}
+.biografia h1 {
+      font: Bold 55px/73px Segoe UI;
+      color: #130b29;
+      opacity: 1;
+}
+.biografia h2{
+       font:  Italic 34px/46px Segoe UI;
+       color: #130b29;
+       opacity: 1;
+}
+.biografia h3 {
+  font: Bold 46px Segoe UI;
+  letter-spacing: 0px;
+  color:#130b29;
+  opacity: 1;
+}
+.biografia p {
+  font: Semibold 29px/34px Segoe UI;
+  color: #130b29;
+ 
+}
+.three{
+  height: 353px;
+  display: block;
+  position: relative;
+  top: 285px;
+  background-color: #cfceee;
+}
+.three h2{
+  margin-top: 30px;
+  margin-left: 250px;
+}
+.three li{
+ margin-top: 15px;
+ margin-left: 300px;
+}
+.four{
+  height: 290px;
+  display: block;
+  position: relative;
+  background-color: #918ee0;
+}
+.four h2{
+  margin-top: 30px;
+  margin-left: 250px;
+}
+.four li{
+ margin-top: 15px;
+ margin-left: 300px;
+}
+.five{
+  height: 500px;
+  display: block;
+  position: relative;
+  background-color: white;
+  margin-bottom: 30px;
+}
+.five h2{
+  margin-top: 30px;
+  margin-left: 250px;
+  margin-bottom: 20px;
+}
+.repoPj{
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+.pj1{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 210px;
+  height: 300px;
+  float: left;
+  margin: 10px 60px 10px 60px;
+}
+.pj2{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 210px;
+  height: 300px;
+  float: left;
+  margin: 10px 60px 10px 60px;
+}
+.pj3{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 210px;
+  height: 300px;
+  float: left;
+  margin: 10px 60px 10px 60px;
+}
+.six {
+  height: 450px;
+  display: block;
+  position: relative;
+  background-color: #130b29;
+}
+.six h2{
+  margin-top: 30px;
+  margin-left: 250px;
+  color: #551a8b;
+}
+.six p{
+  margin-top: 10px;
+  margin-left: 250px;
+  color: #551a8b;
+}
+.last{
+  display:flex;
+  flex-direction: column;
+  width: 298px;  
+  margin-top: 10px;
+  margin-left: 750px;
+  color: #551a8b;
+  text-transform: uppercase;
+}
+input{
+      width:298px;
+      height: 30px;
+}
+textarea{
+      width:298px
+}
+

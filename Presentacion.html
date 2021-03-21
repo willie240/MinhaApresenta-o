@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesFSD.css">
+    <title>Front-End Developer</title>
+</head>
+<body>
+        <div>
+            <nav class="navi" >
+                <img class="myAvatar" src="wilfredoRojas.jpeg" alt="Foto de perfil Wilfredo Rojas">
+                <a href="">Apresentação</a>
+                <a href="">Formação</a>
+                <a href="">Experiência</a>
+                <a href="">Projetos</a>
+                <a href="">Fale comigo!</a>
+            </nav>
+        </div>
+        <div class="base">
+        </div>
+        <!--<div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-1.98,19.23 C148.13,96.22 382.90,-3.47 499.72,30.08 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #08f;"></path></svg></div>-->
+        <div class="contenedor apresentacao"></div>
+        <div class="contenedor biografia">
+            <div class="imgAva">
+                 <img class="bigAvatar" src="wilfredoRojas.jpeg" alt="Avatar">
+            </div>
+            <a href=""></a> 
+            <a href=""></a>
+            <a href=""></a>
+            <section class="texto">
+                 <h1>Wilfredo A. Rojas </h1>
+                 <h2>Front-End Developer</h2>
+                 <h3>Olá!</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Nobis nostrum sint dolorum nemo alias corrupti neque doloribus 
+                 cumque sit maiores beatae officiis necessitatibus et vero quo commodi,
+                 amet totam aperiam.</p>
+             </section>
+        </div>
+        <div class="contenedor three">
+            <h2 class="titulo">Formação</h2>
+            <ul>
+                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci dolorem non suscipit laudantium? Sequi commodi, ad ea fuga iste nisi nostrum? Nam, saepe. Sed, odio repellendus tenetur officia suscipit harum.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat labore optio earum nulla quos atque officiis mollitia, at aspernatur dignissimos asperiores soluta maxime deserunt velit eligendi nesciunt alias! Dignissimos, mollitia.</li>
+            </ul>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br>
+
+        <div class="contenedor four">
+            <h2 class="titulo">Experiência</h2>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+            </ul>
+        </div>
+        <div class="contenedor five">
+            <h2 class="titulo">Projetos</h2>
+        <section class="repoPj">
+             <div class="pj1">
+                <h3>Projeto 1</h3>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                    sed diam.</p>
+                    <div>
+            <form> 
+                <a href="https://api.github.com/repos/willie240/ReceitaWR" target="blank" id="rep">
+                    <input type="button" value="REPOSITÓRIO">
+                </a>
+                <form> 
+                    <input type="button" value="VER DEMO">
+                </form>
+                    </div>
+            </div>
+            <div class="pj2">
+                <h3>projeto 2</h3>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                    sed diam.</p>
+                <form> 
+                    <input type="button" value="REPOSITÓRIO">
+                </form>
+                <form> 
+                    <input type="button" value="VER DEMO">
+                </form>
+            </div>
+            <div class="pj3">
+                <h3>projeto 3</h3>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                    sed diam.</p>
+             <form> 
+                    <input type="button" value="REPOSITÓRIO">
+                </form>
+                <form> 
+                    <input type="button" value="VER DEMO">
+                </form>
+                     </div>
+            </div>
+        </section>
+        <div class="contenedor six">
+            <h2 class="titulo">Fale comigo!</h2>
+            <p>
+                Quer entrar em contato comigo? 
+                Preencha o formulário ao lado e entrarei em contato o mais rápido possível.
+                Você também pode me encontrar nas seguintes redes sociais:
+            </p>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            <form class="last" action="formulario" method="post" name="formulario">
+                <div>
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" required/>
+                </div>
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email"/>
+                </div>
+                <div>
+                    <label for="assunto">Assunto</label>
+                    <input type="assunto" id="assunto" name="assunto"/>
+                </div>
+                <div>
+                    <label for="msg">Mensagem</label>
+                    <textarea id="msg" name="msg"></textarea>
+                </div>
+                    <input type="submit" onclick="return validar();" value="Send">
+            </form>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
